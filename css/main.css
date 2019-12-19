@@ -1,12 +1,12 @@
 .olapic-api-example {
-	max-width: 1400px;
+	max-width: 100%; /*responsive*/
 	position:relative;
 	width:100%;
 	margin:0 auto;
 }
 
 .owl-carousel .owl-stage-outer {
-	max-width:450px;
+	max-width:100%;  /*responsive*/
 	width:100%;
 	margin:0 auto;
 }
@@ -16,8 +16,8 @@
 }
 
 .item {
-	height:300px;
-	max-width:300px;
+	height:100%; /*center items*/
+	max-width:%100; /*center items*/
 	width:100%;
 	/*margin:0 auto;*/
 	display: flex;
@@ -35,11 +35,11 @@
 }
 
 .owl-prev {
-	
+	float:left; /*navigation center*/
 }
 
 .owl-next {
-	
+	float:right; /*navigation center*/
 }
 
 .owl-theme .owl-nav [class*=owl-] {
